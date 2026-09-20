@@ -2,6 +2,13 @@
 
 int main()
 {
-    std::cout << "Hello from WSL + VS Code + CMake + Ninja!" << std::endl;
+    int value = 42;
+
+    std::cout << "Value = " << value << std::endl;
+
+    value += 10;
+
+    std::cout << "Updated value = " << value << std::endl;
+
     return 0;
 }
